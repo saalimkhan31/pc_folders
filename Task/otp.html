@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .square {
+        height: 70px;
+        width: 70px;
+        border: 1px solid rgb(72, 136, 12);
+        margin: 5px;
+        font-weight: bolder;
+      }
+      .square::placeholder {
+        color: #000;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      div {
+        display: flex;
+
+        margin: 30px;
+        margin-top: 8rem;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <input
+        type="text"
+        class="square"
+        name="num1"
+        id="num1"
+        maxlength="1"
+        placeholder="1"
+      />
+      <input
+        type="text"
+        class="square"
+        name="num2"
+        id="num2"
+        maxlength="1"
+        placeholder="2"
+      />
+      <input
+        type="text"
+        class="square"
+        name="num3"
+        id="num3"
+        maxlength="1"
+        placeholder="3"
+      />
+      <input
+        type="text"
+        class="square"
+        name="num4"
+        id="num4"
+        maxlength="1"
+        placeholder="4"
+      />
+    </div>
+  </body>
+  <script src="otp.js"></script>
+</html>

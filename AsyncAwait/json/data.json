@@ -1,0 +1,17 @@
+[
+  {
+    "name": "saalim",
+    "age": "20",
+    "verified": "true"
+  },
+  {
+    "name": "saalim",
+    "age": "90",
+    "verified": "false"
+  },
+  {
+    "name": "saalim",
+    "age": "40",
+    "verified": "true"
+  }
+]

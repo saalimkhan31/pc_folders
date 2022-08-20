@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        text-align: center;
+        margin-top: 2rem;
+      }
+      input {
+        border: 1px solid rgb(119, 80, 80);
+        border-radius: 5px;
+        padding: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+      }
+      .button-div {
+        outline: 1px solid rgb(241, 157, 157);
+        border-radius: 5px;
+        height: auto;
+        width: 200px;
+        margin-left: 535px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        position: relative;
+      }
+      #input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        border: none;
+        color: rgb(44, 78, 78);
+      }
+      #input:focus {
+        outline: none;
+      }
+      #btn {
+        border: 1px solid rgb(255, 255, 255);
+        padding: 7px 10px;
+        border-radius: 50%;
+        margin: 5px;
+        font-weight: bolder;
+        background-color: rgb(236, 203, 203);
+        color: rgb(89, 109, 126);
+      }
+      #btn:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="button-div">
+        <input type="text" id="input" />
+        <button id="btn">0</button>
+        <button id="btn">1</button>
+        <button id="btn">2</button>
+        <button id="btn">3</button>
+        <button id="btn">4</button>
+        <button id="btn">5</button>
+        <button id="btn">6</button>
+        <button id="btn">7</button>
+        <button id="btn">8</button>
+        <button id="btn">9</button>
+        <button id="btn">+</button>
+        <button id="btn">-</button>
+        <button id="btn">*</button>
+        <button id="btn">/</button>
+        <button id="btn">%</button>
+      </div>
+    </div>
+
+    <!-- <input id="num1" type="text" placeholder="enter number one" />
+    <input id="num2" type="text" placeholder="enter number two" />
+    <h1 id="demo"></h1>
+
+    <button onclick="addition()">add</button>
+    <button onclick="substract()">sub</button>
+    <button onclick="multiply()">mult</button>
+    <button onclick="division()">div</button>
+    <button onclick="power()">pow</button> -->
+  </body>
+  <script src="calculator.js"></script>
+</html>

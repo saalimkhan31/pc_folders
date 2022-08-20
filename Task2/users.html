@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      select {
+        padding: 5px;
+        border: 1px solid rgb(95, 94, 93);
+        font-family: sans-serif;
+        color: rgb(20, 20, 39);
+      }
+    </style>
+  </head>
+  <body>
+    <select name="country" id="selectCountry" onchange="countryVal()">
+      <option value="country">select-country</option>
+    </select>
+
+    <!-- ......................................................................... -->
+
+    <select name="state" id="selectState" onchange="stateVal()">
+      <option value="state">state</option>
+    </select>
+
+    <select name="city" id="selectCity">
+      <option value="city">city</option>
+    </select>
+  </body>
+  <script src="users.js"></script>
+</html>

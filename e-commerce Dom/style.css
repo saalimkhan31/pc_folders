@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.cart-list {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin-top: 0rem;
+  border-left: 1px solid #000;
+}
+.cart-icon {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  right: 2.4rem;
+  top: 3.3rem;
+}
+.cart-icon:hover {
+  box-shadow: 5px solid #000;
+}
+#length {
+  position: fixed;
+  right: 2.5rem;
+  top: 2.1rem;
+  font-weight: bolder;
+}
+
+#apiDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 6rem;
+}
+.complete {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.card-area {
+  height: 420px;
+  width: 300px;
+  /* outline: 1px solid rgb(228, 228, 228); */
+  margin: auto;
+  /* border-radius: 3%; */
+  box-shadow: 2px -2px 5px 2px rgb(151 150 150);
+  margin-top: 4rem;
+  /* position: relative; */
+  transition: all 0.9s;
+}
+.card-area:hover {
+  transform: translateY(-4px);
+  box-shadow: 2px 1px 20px 2px rgb(36 32 32);
+}
+
+.images {
+  width: 300px;
+  height: 200px;
+  /* border-top-left-radius: 3%; */
+  /* border-top-right-radius: 3%; */
+  object-fit: contain;
+}
+.btn {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: center;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  background-color: rgb(0, 15, 15);
+  position: absolute;
+  bottom: 2rem;
+  left: 6rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.text {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  text-align: center;
+
+  padding: 1rem 2rem 0 2rem;
+  /* max-width: 260px; */
+  /* overflow: hidden; */
+}
+.price {
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+.rating {
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+.main-size {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.circle1,
+.circle2,
+.circle3 {
+  height: 20px;
+  width: 22px;
+  background-color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 15px;
+  padding-top: 3px;
+  margin-left: 13px;
+  display: none;
+}
+.category {
+  color: #000;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+/* -------------------------- */
+
+.increment-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+  position: fixed;
+  right: 0;
+  top: 14rem;
+}
+.add {
+  cursor: pointer;
+  border: 1px solid gray;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 50%;
+
+  color: rgb(0, 0, 0);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sub {
+  cursor: pointer;
+  border: 1px solid gray;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 50%;
+
+  color: rgb(0, 0, 0);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+input {
+  text-align: center;
+  outline: 1px solid gray;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-weight: bold;
+  width: 4rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

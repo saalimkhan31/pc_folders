@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crud Basic</title>
+  </head>
+  <body>
+    <h1>Welcome to CRUD Basic Demo</h1>
+    <ul>
+      <li><strike>Create or add info</strike></li>
+      <li><strike>Read from stored array and print a table</strike></li>
+      <li><strike>Update existing data</strike></li>
+      <li><strike>delete or remove individual data</strike></li>
+    </ul>
+    <div id="createUserArea">
+      <h1>Add New user</h1>
+      <form id="addUserForm">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required="required"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required="required"
+        />
+        <input
+          type="text"
+          name="mobile"
+          id="mobile"
+          placeholder="Enter your mobile number"
+          required="required"
+        />
+        <select name="isVerified" id="isVerified" required="required">
+          <option value="" default>Is user verified?</option>
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+    <div id="listUsersArea">
+      <h1>Users</h1>
+      <table id="listUsersTable">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>Is Verified</th>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <div id="updateUserArea">
+      <h1>Update User</h1>
+      <form id="editUserForm">
+        <input type="hidden" name="id" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required="required"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+          required="required"
+        />
+        <input
+          type="text"
+          name="mobile"
+          id="mobile"
+          placeholder="Enter your mobile number"
+          required="required"
+        />
+        <select name="isVerified" id="isVerified" required="required">
+          <option value="" default>Is user verified?</option>
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <button type="submit">Update User</button>
+      </form>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

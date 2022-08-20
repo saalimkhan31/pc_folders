@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+
+.logo-contents {
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+}
+.logo {
+  padding-top: 25px;
+  margin-left: 70px;
+}
+.logo-heading {
+  color: rgb(18, 18, 48);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.timing {
+  padding-top: 40px;
+}
+.time-text {
+  margin-left: 140px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.time-text span {
+  font-size: 20px;
+}
+/* top logo contents */
+header {
+  background-color: rgb(18, 18, 48);
+}
+nav {
+  display: flex;
+}
+ul {
+  text-decoration: none;
+  display: flex;
+  padding-left: 55px;
+}
+ul li {
+  list-style: none;
+  padding: 15px;
+  padding-top: 24px;
+}
+ul li a {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* font-family: "Roboto Condensed", sans-serif; */
+}

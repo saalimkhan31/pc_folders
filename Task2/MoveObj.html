@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #myId {
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 50%;
+        transition: all 0.2s;
+      }
+      .puzzle {
+        position: fixed;
+      }
+      .path {
+        border-bottom: 2px solid #000;
+        height: 60px;
+        width: 367px;
+        position: relative;
+        left: 5.1rem;
+      }
+      .path-first {
+        border-bottom: 2px solid #000;
+        height: 60px;
+        width: 300px;
+        position: relative;
+        left: 5rem;
+      }
+      .path-2 {
+        border-bottom: 2px solid #000;
+        height: 60px;
+        width: 200px;
+        position: relative;
+        left: 19.5rem;
+        top: 4.2rem;
+        transform: rotate(90deg);
+      }
+      .path-3 {
+        border-bottom: 2px solid #000;
+        height: 60px;
+        width: 290px;
+        position: relative;
+        left: 20.9rem;
+        top: -13px;
+        transform: rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myId" onkeydown="mouseMove()"></div>
+    <div class="puzzle">
+      <div class="path"></div>
+      <div class="path-first"></div>
+      <div class="path-2"></div>
+      <div class="path-3"></div>
+    </div>
+  </body>
+  <script src="MoveObj.js"></script>
+</html>

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: skyblue;
+
+  width: 100%;
+}
+div {
+  margin-top: 3rem;
+  text-align: center;
+}
+table {
+  border: 1px solid #000;
+}
+.input-email,
+.input-mobile,
+.input-name,
+.input-age {
+  /* border: 1px solid #000; */
+
+  margin: 0.3rem;
+  font-size: 19px;
+  font-family: "Courier New", Courier, monospace;
+  color: azure;
+}
+
+#gender {
+  /* border: 1px solid #000; */
+  margin-top: 5px;
+  padding: 3px;
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  /* border: 1px solid #000; */
+  margin-top: 10px;
+  padding: 3px 5px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+}
+.table-head {
+  border: 1px solid #000;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+}
+.button {
+  border: 1px solid #000;
+  margin: 3px;
+  cursor: pointer;
+
+  border: none;
+  padding: 3px;
+  font-size: 11px;
+  color: rgb(8, 6, 6);
+  letter-spacing: 2px;
+}
+.users-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+.btn {
+  color: rgb(48, 47, 47);
+  font-weight: 800;
+}
